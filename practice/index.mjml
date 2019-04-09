@@ -1,0 +1,128 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Raleway" />
+  </mj-head>
+  <mj-body>
+    <mj-container>
+      <!-- Hero image -->
+
+      <mj-section>
+        <mj-column>
+          <mj-html>
+            <webversion>
+              <a href="www.google.com">Open me on the browser</a>
+            </webversion>
+          </mj-html>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-include path="./header.mjml" />
+      </mj-section>
+
+      <mj-hero
+        background-url="http://unsplash.it/600/400"
+        height="300px"
+      >
+        <mj-hero-content>
+          <mj-text
+            font-size="40px"
+            padding-top="50px"
+            line-height="40px"
+            text-transform="uppercase"
+            align="center"
+            color="#fff"
+          >
+            A great framework emails
+          </mj-text>
+          <mj-button
+            background-color="goldenrod"
+            border-radius="5"
+            href="https://google.com"
+          >
+            BUY ME NOW
+          </mj-button>
+        </mj-hero-content>
+      </mj-hero>
+
+      <!-- Main text -->
+      <mj-section>
+        <mj-column>
+          <mj-text
+            color="#555"
+            font-size="16px"
+            font-family="Raleway"
+          >
+          Isn't it great to do something you can't fail at? Trees cover up a multitude of sins. You could sit here for weeks with your one hair brush trying to do that - or you could do it with one stroke with an almighty brush.
+          <br /><br />
+          Let your imagination just wonder around when you're doing these things. We have a fantastic little sky! Now we don't want him to get lonely, so we'll give him a little friend. And just raise cain.
+          <br /><br />
+          You can't make a mistake. Anything that happens you can learn to use - and make something beautiful out of it. Now we'll take the almighty fan brush. Use absolutely no pressure. Just like an angel's wing. Just pretend you are a whisper floating across a mountain. With something so strong, a little bit can go a long way.
+          <br /><br />
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Other products -->
+      <mj-section>
+        <mj-group>
+
+          <mj-column>
+            <mj-image src="http://unsplash.it/200"
+              href="http://google.com"
+            />
+            <mj-text align="center">
+              <strong>
+                COLUMN A
+              </strong>
+              <br /><br />
+              Just like an angel's wing. Just pretend you are a whisper floating across a mountain. With something so strong, a little bit can go a long way.
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image src="http://unsplash.it/200"
+              href="http://google.com"
+            />
+            <mj-text align="center">
+              <strong>
+                COLUMN A
+              </strong>
+              <br /><br />
+              Just like an angel's wing. Just pretend you are a whisper floating across a mountain. With something so strong, a little bit can go a long way.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+        <mj-group>
+          <mj-column>
+            <mj-image src="http://unsplash.it/200"
+              href="http://google.com"
+            />
+            <mj-text align="center">
+              <strong>
+                COLUMN A
+              </strong>
+              <br /><br />
+              Just like an angel's wing. Just pretend you are a whisper floating across a mountain. With something so strong, a little bit can go a long way.
+            </mj-text>
+          </mj-column>
+
+          <mj-column>
+            <mj-image src="http://unsplash.it/200"
+              href="http://google.com"
+            />
+            <mj-text align="center">
+              <strong>
+                COLUMN A
+              </strong>
+              <br /><br />
+              Just like an angel's wing. Just pretend you are a whisper floating across a mountain. With something so strong, a little bit can go a long way.
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-group>
+
+      <!-- Corporate details -->
+      <mj-include path="footer.mjml" />
+
+    </mj-container>
+  </mj-body>
+</mjml>

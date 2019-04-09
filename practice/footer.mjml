@@ -1,0 +1,15 @@
+<mj-section>
+  <mj-column background-color="red" width="80%">
+    <mj-text>
+      Address<br>
+      Address<br>
+      Address<br>
+      Portugal
+    </mj-text>
+  </mj-column>
+  <mj-column width="20%">
+    <mj-text>
+      LOGO
+    </mj-text>
+  </mj-column>
+</mj-section>

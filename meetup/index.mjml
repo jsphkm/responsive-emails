@@ -1,0 +1,38 @@
+<mjml>
+  <mj-head>
+    <mj-title>Webflow LA</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" />
+    <mj-attributes>
+      <mj-all font-family="Roboto" />
+      <mj-all font-size="14px" />
+      <mj-all font-weight="300" />
+      <mj-all color="#222" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f6f7f8">
+    <mj-section>
+      <mj-column>
+        <mj-image width="100px" src="img/meetup-logo-110@2x.png"/>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff">
+      <mj-table>
+        <tr>
+          <td align="right" style="vertical-align: top">
+            <img style="width: 32px; border-radius: 32px;" src="img/member_255393806.jpeg" />
+          </td>
+          <td align="left" style="padding-left: 10px; vertical-align: top">
+            <a href="www.google.com" target="_blank" style="color: #222; text-decoration: none;">
+              Nelson Abalos Jr schedueled a new Meetup in Webflow LA <span style="color:#999">Just now</span>
+            </a>
+          </td>
+        </tr>
+      </mj-table>
+    </mj-section>
+    <mj-section background-color="#fff">
+      <mj-column>
+
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

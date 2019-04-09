@@ -1,6 +1,7 @@
 <mjml>
   <mj-head>
     <mj-title>Webflow LA</mj-title>
+    <mj-breakpoint width="775px" />
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" />
     <mj-attributes>
       <mj-all font-family="Roboto" />
@@ -14,7 +15,7 @@
         text-decoration: none;
       }
 
-      .body div {
+      .body > div {
         max-width: 95vw !important;
       }
 
@@ -27,16 +28,37 @@
       }
 
       .neon-red {
-        color: #f13a59 !important;
+        color: #ff3a59 !important;
       }
 
       .divider {
-        padding: 7px 0 !important;
+        padding: 0 !important;
       }
 
-      @media (min-width:780px) {
-        .body div {
-          max-width: 780px !important;
+      .gutter {
+        max-width: 85% !important;
+      }
+
+      .spacer {
+        height: 17px;
+      }
+
+      <!-- .vert-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      } -->
+
+      .inline-center {
+        <!-- display: inline-block;
+        vertical-align: middle;
+        line-height: normal; -->
+
+      }
+
+      @media (min-width:775px) {
+        .body > div {
+          max-width: 775px !important;
           margin: 0 auto;
         }
       }
@@ -48,8 +70,8 @@
         <mj-image src="img/meetup-logo-110@2x.png"/>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#fff" padding="45px 0">
-      <mj-column width="85%">
+    <mj-section background-color="#fff" padding="45px 0 0 0">
+      <mj-column css-class="gutter">
         <mj-section padding="0">
           <mj-column padding="0">
             <mj-table padding="0">
@@ -58,7 +80,7 @@
                   <img style="width: 32px; border-radius: 32px;" src="img/member_255393806.jpeg" />
                 </td>
                 <td align="left" style="padding-left: 10px; vertical-align: top">
-                  <a href="www.google.com" target="_blank" style="font-weight: 300;" class="off-black">
+                  <a href="https://www.google.com" target="_blank" style="font-weight: 300;" class="off-black">
                     <span style="font-weight: 400">Nelson Abalos Jr</span> schedueled a new Meetup in <span style="font-weight: 400">Webflow LA</span> <span style="color:#999; font-weight: 400">Just now</span>
                   </a>
                 </td>
@@ -80,24 +102,120 @@
               </mj-hero>
           </mj-column>
         </mj-section>
-        <mj-section padding="5px 0">
+        <mj-section padding="5px 0 10px 0">
           <mj-text font-size="23px" line-height="32px" font-weight="700">
-            <a href="www.google.com" target="_blank" color="#456" class="off-black">
-            Intro to code-free web animations and interactions
-          </a>
+            <a href="https://www.google.com" target="_blank" color="#456" class="off-black">
+              Intro to code-free web animations and interactions
+            </a>
           </mj-text>
           <mj-text font-size="16px" font-weight="400">
-            <a href="www.google.com" target="_blank" class="neon-red">
+            <a href="https://www.google.com" target="_blank" class="neon-red">
               Webflow LA
             </a>
           </mj-text>
         </mj-section>
-        <mj-section padding="5px 0">
+        <mj-section padding="0">
           <mj-column>
             <mj-divider border-width="1px" border-color="#ddd" css-class="divider"/>
           </mj-column>
         </mj-section>
+        <mj-section padding="7px 0 0 0">
+            <mj-column padding="0 0 25px 0" width="80%">
+              <mj-table padding="0">
+                <tr>
+                  <td align="left" style="vertical-align: top; width: 22px">
+                    <img style="width: 21px; border-radius: 32px;" src="img/clock--small.png" />
+                  </td>
+                  <td align="left" style="padding-left: 10px; vertical-align: top;">
+                    <mj-text style="font-size: 16px; font-weight: 300;">
+                      Thursday, May 2, 2019<br />
+                      6:00 PM to 8:00 PM
+                    </mj-text>
+                  </td>
+                </tr>
+                <tr class="spacer"></tr>
+                <tr>
+                  <td align="left" style="vertical-align: top; width: 22px">
+                    <img style="width: 21px; border-radius: 32px;" src="img/location-pin--small.png" />
+                  </td>
+                  <td
+                  align="left"
+                  style="padding-left: 10px; vertical-align: top;">
+                    <mj-text style="font-size:16px; font-weight: 300;">
+                      Gas Tower<br />
+                      555 West 5th Street 35th Floor<br />
+                      Los Angeles, CA
+                    </mj-text>
+                  </td>
+                </tr>
+              </mj-table>
+            </mj-column>
+            <mj-column width="20%" padding-bottom="50px">
+              <mj-button align="right" color="white" font-weight="700"
+              font-size="16px" padding="0" href="https://www.google.com" background-color="#ff3a59" width="100%"
+              >
+                Attend
+              </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+          <mj-column>
+            <mj-divider border-width="1px" border-color="#ddd" css-class="divider"/>
+          </mj-column>
+        </mj-section>
+        <mj-section>
+          <mj-column>
+            <mj-text padding="0" font-weight="700" font-size="16px">
+              Details
+            </mj-text>
+            <mj-text padding="30px 0 0 0" font-size="16px" line-height="25px">
+              For this meetup, you'll learn how to create web animations and interactions without code, using Webflow. Some of the interactions you'll learn will be hover effects, click effects, parallax scrolling, and mouse position effects. We'll be meeting at ...
+            </mj-text>
+            <mj-text padding="3px 0" font-size="16px" font-weight="400">
+              <a href="https://www.google.com" target="_blank" class="neon-red">Learn more</a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-section padding="0 0 12px 0">
+          <mj-column>
+            <mj-text padding="0" font-weight="700" font-size="16px">
+              Hosted by
+            </mj-text>
+            <mj-section padding="10px 0">
+              <mj-column padding="0">
+                <mj-table padding="0">
+                  <tr>
+                    <td align="left" style="vertical-align: top" width="70px">
+                      <img style="width: 70px; border-radius: 70px;" src="img/member_255393806.jpeg" />
+                    </td>
+                    <td align="left" style="padding-left: 15px; vertical-align: top; font-size: 16px">
+                      <a href="https://www.google.com" target="_blank" style="font-weight: 300;" class="off-black">
+                        Nelson Abalos Jr<br />
+                        <span style="color: #999;">I'm a Customer Success Specialist at Webflow</span>
+                      </a>
+                    </td>
+                  </tr>
+                </mj-table>
+              </mj-column>
+            </mj-section>
+          </mj-column>
+        </mj-section>
       </mj-column>
+    </mj-section>
+    <mj-spacer height="13px" />
+    <mj-section background-color="#fff" padding="33px 0">
+      <mj-hero>
+        <mj-text align="center" color="#999" font-size="16px">
+          <p>Find your next <span class="neon-red" style="padding-right: 10px">Meetup</span><img style="width: 10px; vertical-align: middle" src="img/chevron--right.png" /></p>
+        </mj-text>
+      </mj-hero>
+    </mj-section>
+    <mj-section>
+      <mj-text>
+        <mj-social>
+          
+        </mj-social>
+      </mj-text>
     </mj-section>
   </mj-body>
 </mjml>

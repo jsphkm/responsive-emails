@@ -6,32 +6,97 @@
       <mj-all font-family="Roboto" />
       <mj-all font-size="14px" />
       <mj-all font-weight="300" />
-      <mj-all color="#222" />
+      <mj-all color="#456" />
+      <!-- <mj-body width="95%"/> -->
     </mj-attributes>
+    <mj-style>
+      a {
+        text-decoration: none;
+      }
+
+      .body div {
+        max-width: 95vw !important;
+      }
+
+      .hero-image td {
+        border-radius: 4px !important;
+      }
+
+      .off-black {
+        color: #456 !important;
+      }
+
+      .neon-red {
+        color: #f13a59 !important;
+      }
+
+      .divider {
+        padding: 7px 0 !important;
+      }
+
+      @media (min-width:780px) {
+        .body div {
+          max-width: 780px !important;
+          margin: 0 auto;
+        }
+      }
+    </mj-style>
   </mj-head>
-  <mj-body background-color="#f6f7f8">
-    <mj-section>
-      <mj-column>
-        <mj-image width="100px" src="img/meetup-logo-110@2x.png"/>
+  <mj-body css-class="body" background-color="#f6f7f8">
+    <mj-section padding="15px 0">
+      <mj-column width="160px">
+        <mj-image src="img/meetup-logo-110@2x.png"/>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#fff">
-      <mj-table>
-        <tr>
-          <td align="right" style="vertical-align: top">
-            <img style="width: 32px; border-radius: 32px;" src="img/member_255393806.jpeg" />
-          </td>
-          <td align="left" style="padding-left: 10px; vertical-align: top">
-            <a href="www.google.com" target="_blank" style="color: #222; text-decoration: none;">
-              Nelson Abalos Jr schedueled a new Meetup in Webflow LA <span style="color:#999">Just now</span>
+    <mj-section background-color="#fff" padding="45px 0">
+      <mj-column width="85%">
+        <mj-section padding="0">
+          <mj-column padding="0">
+            <mj-table padding="0">
+              <tr>
+                <td align="left" style="vertical-align: top">
+                  <img style="width: 32px; border-radius: 32px;" src="img/member_255393806.jpeg" />
+                </td>
+                <td align="left" style="padding-left: 10px; vertical-align: top">
+                  <a href="www.google.com" target="_blank" style="font-weight: 300;" class="off-black">
+                    <span style="font-weight: 400">Nelson Abalos Jr</span> schedueled a new Meetup in <span style="font-weight: 400">Webflow LA</span> <span style="color:#999; font-weight: 400">Just now</span>
+                  </a>
+                </td>
+              </tr>
+            </mj-table>
+          </mj-column>
+        </mj-section>
+        <mj-section padding="5px 0">
+          <mj-column>
+              <mj-hero
+                css-class="hero-image"
+                mode="fixed-height"
+                height="180px"
+                width="100%"
+                background-width="600px"
+                background-height="337px"
+                background-url="img/highres_480264217.jpeg"
+              >
+              </mj-hero>
+          </mj-column>
+        </mj-section>
+        <mj-section padding="5px 0">
+          <mj-text font-size="23px" line-height="32px" font-weight="700">
+            <a href="www.google.com" target="_blank" color="#456" class="off-black">
+            Intro to code-free web animations and interactions
+          </a>
+          </mj-text>
+          <mj-text font-size="16px" font-weight="400">
+            <a href="www.google.com" target="_blank" class="neon-red">
+              Webflow LA
             </a>
-          </td>
-        </tr>
-      </mj-table>
-    </mj-section>
-    <mj-section background-color="#fff">
-      <mj-column>
-
+          </mj-text>
+        </mj-section>
+        <mj-section padding="5px 0">
+          <mj-column>
+            <mj-divider border-width="1px" border-color="#ddd" css-class="divider"/>
+          </mj-column>
+        </mj-section>
       </mj-column>
     </mj-section>
   </mj-body>

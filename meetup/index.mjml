@@ -43,17 +43,8 @@
         height: 17px;
       }
 
-      <!-- .vert-center {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      } -->
-
-      .inline-center {
-        <!-- display: inline-block;
-        vertical-align: middle;
-        line-height: normal; -->
-
+      .social-element img {
+        border-radius: 0 !important;
       }
 
       @media (min-width:775px) {
@@ -211,11 +202,14 @@
       </mj-hero>
     </mj-section>
     <mj-section>
-      <mj-text>
-        <mj-social>
-          
-        </mj-social>
-      </mj-text>
+      <mj-social icon-size="20px" icon-padding="5px" mode="horizontal" border-radius="20px" >
+        <mj-social-element css-class="social-element" href="url" background-color="#79b" src="img/external-facebookBoxed.png">
+        </mj-social-element>
+        <mj-social-element name="twitter" border-radius="30px" href="https://mjml.io/">
+        </mj-social-element>
+        <mj-social-element name="instagram" border-radius="30px" href="https://mjml.io/">
+        </mj-social-element>
+      </mj-social>
     </mj-section>
   </mj-body>
 </mjml>

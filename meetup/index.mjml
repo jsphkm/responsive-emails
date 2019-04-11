@@ -55,6 +55,10 @@
         border-radius: 0 !important;
       }
 
+      .zero-height td {
+        height: 0 !important
+      }
+
       @media (min-width:775px) {
         .body > div {
           max-width: 775px !important;
@@ -219,12 +223,12 @@
         </mj-social-element>
       </mj-social>
     </mj-section>
-    <mj-section padding="0">
+    <mj-section padding="20px 0 15px 0">
       <mj-column>
         <mj-social icon-size="161px">
-          <mj-social-element padding="0 5px" height="30px" src="img/download.en.png">
+          <mj-social-element css-class="zero-height" padding="0 5px" height="30px" src="img/download.en.png">
           </mj-social-element>
-          <mj-social-element padding="0 5px" height="30px" src="img/download-1.en.png">
+          <mj-social-element css-class="zero-height" padding="0 5px" height="30px" src="img/download-1.en.png">
           </mj-social-element>
         </mj-social>
       </mj-column>

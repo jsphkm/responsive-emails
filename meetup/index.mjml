@@ -209,7 +209,7 @@
         </mj-text>
       </mj-hero>
     </mj-section>
-    <mj-section padding="45px 0">
+    <mj-section padding="45px 0 0 0">
       <mj-social icon-size="18px" icon-padding="6px" mode="horizontal" border-radius="20px">
         <mj-social-element css-class="social-element" href="url" background-color="#36a" padding="0 8px" src="img/external-facebookBoxed.png">
         </mj-social-element>
@@ -219,17 +219,17 @@
         </mj-social-element>
       </mj-social>
     </mj-section>
-    <mj-section>
+    <mj-section padding="0">
       <mj-column>
         <mj-social icon-size="161px">
-          <mj-social-element padding="0 5px" src="img/download.en.png">
+          <mj-social-element padding="0 5px" height="30px" src="img/download.en.png">
           </mj-social-element>
-          <mj-social-element padding="0 5px" src="img/download-1.en.png">
+          <mj-social-element padding="0 5px" height="30px" src="img/download-1.en.png">
           </mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section padding="0 0 40px 0">
       <mj-column css-class="gutter">
         <mj-text color="#888" font-family="Arial" font-size="10px" line-height="20px">
           You received this message because you are a registered member of Meetup.<br />

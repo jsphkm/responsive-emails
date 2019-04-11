@@ -1,0 +1,12 @@
+{
+  "name": "email-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jsphkm/email-practice.git",
+  "author": "jsphkm <jsphkm12@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mjml": "^4.4.0-beta.1",
+    "mjml-core": "^4.4.0-beta.1"
+  }
+}

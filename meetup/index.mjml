@@ -27,6 +27,10 @@
         color: #456 !important;
       }
 
+      .gray {
+        color: #888 !important;
+      }
+
       .neon-red {
         color: #ff3a59 !important;
       }
@@ -41,6 +45,10 @@
 
       .spacer {
         height: 17px;
+      }
+
+      .underline {
+        text-decoration: underline;
       }
 
       .social-element img {
@@ -201,15 +209,35 @@
         </mj-text>
       </mj-hero>
     </mj-section>
-    <mj-section>
-      <mj-social icon-size="20px" icon-padding="5px" mode="horizontal" border-radius="20px" >
-        <mj-social-element css-class="social-element" href="url" background-color="#79b" src="img/external-facebookBoxed.png">
+    <mj-section padding="45px 0">
+      <mj-social icon-size="18px" icon-padding="6px" mode="horizontal" border-radius="20px">
+        <mj-social-element css-class="social-element" href="url" background-color="#36a" padding="0 8px" src="img/external-facebookBoxed.png">
         </mj-social-element>
-        <mj-social-element name="twitter" border-radius="30px" href="https://mjml.io/">
+        <mj-social-element css-class-"social-element" href="url" background-color="#3ae" padding="0 8px" src="img/external-twitter.png">
         </mj-social-element>
-        <mj-social-element name="instagram" border-radius="30px" href="https://mjml.io/">
+        <mj-social-element css-class-"social-element" href="url" background-color="#c38" padding="0 8px" src="img/external-instagram.png">
         </mj-social-element>
       </mj-social>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-social icon-size="161px">
+          <mj-social-element padding="0 5px" src="img/download.en.png">
+          </mj-social-element>
+          <mj-social-element padding="0 5px" src="img/download-1.en.png">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column css-class="gutter">
+        <mj-text color="#888" font-family="Arial" font-size="10px" line-height="20px">
+          You received this message because you are a registered member of Meetup.<br />
+          <a class="off-black" href="https://www.google.com" target="_blank">Unsubscribe</a> from this type of email. <a class="off-black" href="https://www.google.com" target="_blank">Manage your settings</a> for all types of email updates.<br />
+          Visit <a class="off-black" href="https://wwww.google.com" target="_blank">your account page</a> to change your contact details, privacy settings, and other settings. Read our <a class="underline gray" href="https://google.com" target="_blank">Privacy Policy</a><br />
+          <a class="off-black" href="https://www.google.com" target="_blank">Meetup, Inc.</a>, POB 4668 #37895 New York NY USA 10163. Meetup is a wholly owned subsidiary of WeWork Companies Inc.<br />
+        </mj-text>
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>

@@ -1,0 +1,274 @@
+<mjml>
+  <mj-head>
+    <mj-title>Taylor Stitch</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Georgia" />
+      <mj-all color="#445" />
+      <mj-all font-size="15px" />
+      <mj-button color="#fff" font-family="Helvetica" font-size="10px" font-weight="900" border-radius="0" inner-padding="16px 50px" background-color="#333"/>
+    </mj-attributes>
+    <mj-style>
+      .leeward-description div {
+        width: 100%;
+        max-width: 418px;
+      }
+
+      .leewardshirts-text p {
+        font-size: 14px;
+        font-family: Helvetica;
+        font-weight: 700;
+        padding: 0 60px;
+        line-height: 17px;
+      }
+
+      .club-sans-serif {
+        font-size: 8px;
+        font-family: sans-serif;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 2px;
+        color: #fff;
+      }
+
+      .club-serif {
+        font-size: 11px;
+        font-family: Georgia;
+        line-height: 25px;
+        color: #fff;
+      }
+
+      .links {
+        color: #445;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 300;
+        font-family: Helvetica;
+        margin: 25px;
+      }
+
+      @media (min-width: 560px) {
+        .leewardshirts-text p {
+          font-size: 10px;
+          padding: 0 85px;
+          line-height: 13px;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="700px">
+    // Top logo
+    <mj-section padding="30px 0 0 0">
+      <mj-column>
+        <mj-text align="center" padding="0">
+          <a href="https://www.google.com"><img width="220px" src="img/emails-lock-up.png" /></a>
+        </mj-text>
+        <!-- <mj-image width="220px" src="img/emails-lock-up.png" /> -->
+      </mj-column>
+    </mj-section>
+    // Hero image
+    <mj-section>
+      <mj-column>
+        <mj-text padding="0">
+          <a href="https://www.google.com"><img width="100%" src="img/a2f0e45d-df89-4bd3-a060-4757f44460ba.jpeg"></a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    // Leeward Shirt - title
+    <mj-section padding="50px 0">
+      <mj-column>
+        <mj-text padding="0">
+          <a href="https://www.google.com"><img width="100%" src="img/5294296f-99cf-496d-a506-713381d36b8f.jpeg"></a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    // Leeward Shirt - description
+    <mj-section padding="15px 26px">
+      <mj-column>
+        <mj-text css-class="leeward-description" line-height="30px" padding="0" align="center">
+          <p>
+          To the seafaring among us, the term leeward will suggest protection from trade winds, but even those with a healthy fear of the open ocean can take shelter in our brand new Leeward shirt. True to its name, this sharp, versatile shirt is built to keep you warm and dry no matter the size of the storm.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    // 2 Column-Shirts
+    <mj-section>
+      <mj-column width="280px" padding-top="36px">
+        <mj-image src="img/mens_instock_Q418_product_leeward_oxblood_001_copy.jpg" />
+        <mj-text css-class="leewardshirts-text" align="center" padding="0">
+          <p>THE LEEWARD SHIRT IN OXBLOOD</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="280px" padding-top="36px">
+        <mj-image src="img/mens_instock_Q418_product_leeward_navy_tartan_001.jpg" />
+        <mj-text css-class="leewardshirts-text" align="center" padding="0">
+          <p>THE LEEWARD SHIRT IN NAVY TARTAN</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="60px">
+      <mj-column>
+        <mj-image padding="0" src="img/911b61f4-22bf-4289-8c24-f2a5a22c25d8.jpeg" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="50px 0">
+      <mj-column>
+        <mj-button href="https://www.google.com">
+            <mj-text css-class="button-text" line-spacing="20px">
+              <p style="margin: 0; letter-spacing: 2px;">
+                SHOP NOW
+              </p>
+            </mj-text>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image padding="0" src="img/42dc5d79-1f5b-43a5-a665-d9b2ecbacac7.jpeg" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 0">
+      <mj-column>
+        <mj-image padding="0" src="img/e728d2b2-9a2e-465a-b1fe-7b521a84efe1.jpeg" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="280px" padding-top="36px">
+        <mj-image src="img/chore_pant_product_selects-8.jpg" />
+        <mj-text css-class="leewardshirts-text" align="center" padding="0">
+          <p>THE CHORE PANT IN WASHED COAL</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="280px" padding-top="36px">
+        <mj-image src="img/Background.jpg" />
+        <mj-text css-class="leewardshirts-text" align="center" padding="0">
+          <p>THE CHORE PANT IN WASHED CAMEL</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="60px 0">
+      <mj-column>
+        <mj-button href="https://www.google.com">
+            <mj-text css-class="button-text">
+              <p style="margin: 0; letter-spacing: 2px;">
+                SHOP NOW
+              </p>
+            </mj-text>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 0">
+      <mj-column>
+        <mj-image padding="0" src="img/434c73c8-04e2-415b-957c-9cd3689859a4.jpeg" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="60px 0">
+      <mj-column>
+        <mj-button href="https://www.google.com">
+            <mj-text css-class="button-text" line-spacing="20px">
+              <p style="margin: 0; letter-spacing: 2px;">
+                RSVP HERE
+              </p>
+            </mj-text>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#b7ad90" padding="40px 0 15px 0">
+      <mj-wrapper padding="30px 40px">
+        <mj-image align="left" width="200px" src="img/commonclub_logo_02.png" />
+      </mj-wrapper>
+      <mj-column width="50%" padding="15px">
+        <mj-text>
+          <p class="club-sans-serif">WELCOME TO THE CLUB</p>
+        </mj-text>
+        <mj-text>
+          <p class="club-serif">
+            The Common Club is our commitment to keeping you at the center of everything we do. Earn credit on purchases and enjoy the perks of being in the club.
+          </p>
+        </mj-text>
+        <mj-text>
+          <p class="club-sans-serif">LEARN MORE ►</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" padding="15px">
+        <mj-text padding="10px 25px">
+          <p class="club-sans-serif">YOUR COMMON CLUB CREDIT</p>
+        </mj-text>
+        <mj-text>
+          <p class="club-serif" style="font-size: 25px">
+            13715
+          </p>
+        </mj-text>
+        <mj-text>
+          <p class="club-sans-serif">PRO TIP —</p>
+        </mj-text>
+        <mj-text padding="0 25px">
+          <p class="club-serif">
+            Divide the credits by 100 to figure out how that number translates to dollars
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider border-width="1px" border-color="#ddd"/>
+          <mj-text align="center" padding="20px 0 0 0">
+            Have Questions? Give Us A Shout.
+          </mj-text>
+          <mj-text align="center" padding="10px 0 20px 0">
+            <p style="font-family: sans-serif; font-size: 9px; letter-spacing: 1.7px; font-weight: 700;">
+              WE'RE READY TO HELP ►
+            </p>
+          </mj-text>
+        <mj-divider border-width="1px" border-color="#ddd"/>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 0 0 30px">
+      <mj-column width="50%">
+        <mj-image width="200px" align="left" src="img/emails-responsibly-built-lockup.png" />
+      </mj-column>
+      <mj-column width="25%" padding="10px 0">
+        <mj-text padding="3px 0">
+          <a class="links" href="https://www.google.com">Shop</a>
+        </mj-text>
+        <mj-text padding="3px 0">
+          <a class="links" href="https://www.google.com">Workshop</a>
+        </mj-text>
+        <mj-text padding="3px 0">
+          <a class="links" href="https://www.google.com">Last Call</a>
+        </mj-text>
+        <mj-text padding="3px 0">
+          <a class="links" href="https://www.google.com">The Dispatch</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%" padding="10px 0">
+        <mj-text padding="3px 0">
+          <a class="links" href="https://www.google.com">About</a>
+        </mj-text>
+        <mj-text padding="3px 0">
+          <a class="links" href="https://www.google.com">Account</a>
+        </mj-text>
+        <mj-text padding="3px 0">
+          <a class="links" href="https://www.google.com">Help</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column padding="0 0 0 30px">
+        <mj-social align="left" inner-padding="0px 20px 20px 0">
+          <mj-social-element href="url" src="img/emails-icon-instagram_13964307-5f03-4823-a56c-e3cf678e24c1.png">
+          </mj-social-element>
+          <mj-social-element href="url" src="img/emails-icon-facebook_8b79e338-a5d9-4c1e-a85f-8c006a3de733.png">
+          </mj-social-element>
+          <mj-social-element href="url" src="img/emails-icon-twitter_004bd81c-a43e-4dff-8df4-eae827a2e956.png">
+          </mj-social-element>
+          <mj-social-element href="url" src="img/emails-icon-pinterest.png">
+          </mj-social-element>
+          <mj-social-element href="url" src="img/emails-icon-vsco.png">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

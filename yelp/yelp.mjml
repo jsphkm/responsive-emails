@@ -1,14 +1,299 @@
 <mjml>
   <mj-head>
     <mj-title>Yelp</mj-title>
+    <mj-breakpoint width="615px" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" />
     <mj-attributes>
-
+      <mj-all font-family="Helvetica Neue", "sans-serif" />
+      <mj-all color="#333" />
     </mj-attributes>
+    <mj-style>
+      .v-align {
+        vertical-align: middle;
+      }
+
+      .fire-text {
+        padding: 0 0 0 5px;
+      }
+
+      .review-text {
+        padding: 0 0 0 3px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 615px) {
+        .burst td {
+          width: 55px !important;
+        }
+      }
+    </mj-style>
   </mj-head>
   <mj-body>
-    <mj-section>
+    <mj-section padding="17px 21px 25px 21px">
       <mj-column>
-          <mj-image src="img/burst@2x.png" />
+        <mj-image css-class="burst" padding="0" align="left" width="34px" src="img/burst@2x.png" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 21px">
+      <mj-column>
+        <mj-text padding="0" font-size="35px" font-weight="700" line-height="40px">
+          Joe, new businesses everyone is talking about!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 21px 0 21px">
+      <mj-column>
+        <mj-text padding="0" font-size="16px" line-height="24px">
+          We found some great new businesses that just opened near you and wanted you to be the first to know!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- <mj-wrapper>
+      <mj-column width="286px">
+        <mj-section css-class="thumbnail"
+          background-url="img/o.jpg"
+          background-size="cover"
+          background-repeat="no-repeat"
+          background-position="center"
+          border-radius="5px"
+          padding="0"
+        >
+        <mj-column width="286px">
+          <mj-text height="220px" padding="0">
+          </mj-text>
+        </mj-column>
+        </mj-section>
+      </mj-column>
+
+    </mj-wrapper> -->
+    <mj-section>
+      // First Location
+      <mj-column width="50%">
+        <mj-column
+          padding="0 0 3px 0"
+          width="286px"
+        >
+          <mj-hero
+            mode="fluid-height"
+            background-width="286px"
+            background-height="220px"
+            background-url="img/o.jpg"
+            border-radius="70px"
+            width="286px"
+          >
+          </mj-hero>
+        </mj-column>
+        <mj-column width="286px">
+          <mj-text
+            font-size="16px"
+            line-height="22px"
+            font-weight="700"
+            padding="0 25px 3px 25px"
+          >
+            La Barca Restaurant
+          </mj-text>
+          <mj-text padding="0 25px">
+            <img
+              src="img/large_4_half.png"
+              width="100px"
+              class="v-align"
+            />
+            <span class="review-text">
+              19 reviews
+            </span>
+          </mj-text>
+          <mj-text
+            padding="8px 25px 5px 25px"
+            font-size="12px"
+          >
+            Mexican
+          </mj-text>
+          <mj-text padding="0 25px" font-size="12px">
+            <img
+              src="img/24x24_flame@2x.png"
+              width="15px"
+              class="v-align"
+            />
+            <span class="fire-text">Opened 2 weeks ago</span>
+          </mj-text>
+          <mj-text
+            font-size="12px"
+            padding="8px 25px 30px 25px"
+          >
+            Downey, CA
+          </mj-text>
+        </mj-column>
+      </mj-column>
+      // Second Location
+      <mj-column width="50%">
+        <mj-column
+          padding="0 0 3px 0"
+          width="286px"
+        >
+          <mj-hero
+            mode="fluid-height"
+            background-width="286px"
+            background-height="220px"
+            background-url="img/o.jpg"
+            border-radius="70px"
+            width="286px"
+          >
+          </mj-hero>
+        </mj-column>
+        <mj-column width="286px">
+          <mj-text
+            font-size="16px"
+            line-height="22px"
+            font-weight="700"
+            padding="0 25px 3px 25px"
+          >
+            La Barca Restaurant
+          </mj-text>
+          <mj-text padding="0 25px">
+            <img
+              src="img/large_4_half.png"
+              width="100px"
+              class="v-align"
+            />
+            <span class="review-text">
+              19 reviews
+            </span>
+          </mj-text>
+          <mj-text
+            padding="8px 25px 5px 25px"
+            font-size="12px"
+          >
+            Mexican
+          </mj-text>
+          <mj-text padding="0 25px" font-size="12px">
+            <img
+              src="img/24x24_flame@2x.png"
+              width="15px"
+              class="v-align"
+            />
+            <span class="fire-text">Opened 2 weeks ago</span>
+          </mj-text>
+          <mj-text
+            font-size="12px"
+            padding="8px 25px 30px 25px"
+          >
+            Downey, CA
+          </mj-text>
+        </mj-column>
+      </mj-column>
+      // Third Location
+      <mj-column width="50%">
+        <mj-column
+          padding="0 0 3px 0"
+          width="286px"
+        >
+          <mj-hero
+            mode="fluid-height"
+            background-width="286px"
+            background-height="220px"
+            background-url="img/o.jpg"
+            border-radius="70px"
+            width="286px"
+          >
+          </mj-hero>
+        </mj-column>
+        <mj-column width="286px">
+          <mj-text
+            font-size="16px"
+            line-height="22px"
+            font-weight="700"
+            padding="0 25px 3px 25px"
+          >
+            La Barca Restaurant
+          </mj-text>
+          <mj-text padding="0 25px">
+            <img
+              src="img/large_4_half.png"
+              width="100px"
+              class="v-align"
+            />
+            <span class="review-text">
+              19 reviews
+            </span>
+          </mj-text>
+          <mj-text
+            padding="8px 25px 5px 25px"
+            font-size="12px"
+          >
+            Mexican
+          </mj-text>
+          <mj-text padding="0 25px" font-size="12px">
+            <img
+              src="img/24x24_flame@2x.png"
+              width="15px"
+              class="v-align"
+            />
+            <span class="fire-text">Opened 2 weeks ago</span>
+          </mj-text>
+          <mj-text
+            font-size="12px"
+            padding="8px 25px 30px 25px"
+          >
+            Downey, CA
+          </mj-text>
+        </mj-column>
+      </mj-column>
+      // Fourth Location
+      <mj-column width="50%">
+        <mj-column
+          padding="0 0 3px 0"
+          width="286px"
+        >
+          <mj-hero
+            mode="fluid-height"
+            background-width="286px"
+            background-height="220px"
+            background-url="img/o.jpg"
+            border-radius="70px"
+            width="286px"
+          >
+          </mj-hero>
+        </mj-column>
+        <mj-column width="286px">
+          <mj-text
+            font-size="16px"
+            line-height="22px"
+            font-weight="700"
+            padding="0 25px 3px 25px"
+          >
+            La Barca Restaurant
+          </mj-text>
+          <mj-text padding="0 25px">
+            <img
+              src="img/large_4_half.png"
+              width="100px"
+              class="v-align"
+            />
+            <span class="review-text">
+              19 reviews
+            </span>
+          </mj-text>
+          <mj-text
+            padding="8px 25px 5px 25px"
+            font-size="12px"
+          >
+            Mexican
+          </mj-text>
+          <mj-text padding="0 25px" font-size="12px">
+            <img
+              src="img/24x24_flame@2x.png"
+              width="15px"
+              class="v-align"
+            />
+            <span class="fire-text">Opened 2 weeks ago</span>
+          </mj-text>
+          <mj-text
+            font-size="12px"
+            padding="8px 25px 30px 25px"
+          >
+            Downey, CA
+          </mj-text>
+        </mj-column>
       </mj-column>
     </mj-section>
   </mj-body>

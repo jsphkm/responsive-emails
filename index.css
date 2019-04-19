@@ -18,8 +18,8 @@ h1 {
 li {
   display: inline-block;
   margin: 20px;
-  width: 240px;
-  max-width: 240px;
+  width: 300px;
+  max-width: 300px;
   max-height: 320px;
   overflow: auto;
   -webkit-box-shadow: 0 0 5px 1px rgba(155,155,155,0.2);

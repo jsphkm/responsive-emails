@@ -1,4 +1,4 @@
-# Meetup Email
-Recreating a Meetup's responsive email with MJML
+# Responsive Emails
+Recreated three emails using MJML and Pine
 
-![meetup](https://user-images.githubusercontent.com/28643797/55925291-f3e1fb80-5bc1-11e9-8a3f-f4505f777c00.png)
+![homepage](https://user-images.githubusercontent.com/28643797/56418359-8f6f0e00-624b-11e9-8f1b-0009f0494ccf.png)

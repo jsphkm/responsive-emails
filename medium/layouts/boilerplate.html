@@ -21,6 +21,65 @@
     <![endif]-->
 
     <style type="text/css">
+
+      .fontsize-16-18 {
+        font-size: 18px;
+      }
+
+      .fontsize-17-18 {
+        font-size: 18px;
+      }
+
+      .highlights-header {
+        padding: 5px 0 7px 0;
+      }
+
+      .article-title {
+        font-size: 22px;
+      }
+
+      .col-margin-left {
+        padding: 0 0 0 20px;
+      }
+
+      .margin-bottom-32-36 {
+        margin-bottom: 36px !important;
+      }
+
+      .margin-top-12-24 {
+        margin-top: 24px !important;
+      }
+
+      @media (max-width: 420px) {
+
+        .fontsize-16-18 {
+          font-size: 16px !important;
+        }
+
+        .fontsize-17-18 {
+          font-size: 17px;
+        }
+
+        .image-padding-bottom {
+          padding-bottom: 12px !important;
+        }
+
+        .article-title {
+          font-size: 19px;
+        }
+
+        .col-margin-left {
+          padding: 0;
+        }
+
+        .margin-bottom-32-36 {
+          margin-bottom: 32px !important;
+        }
+
+        .margin-top-12-24 {
+          margin-top: 12px !important;
+        }
+      }
     
       @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
       @media only screen {
@@ -39,7 +98,7 @@
         .container {width: 100%!important; -webkit-text-size-adjust: 100%;}
       }
 
-      @media only screen and (max-width: 699px) {
+      @media only screen and (max-width: 420px) {
         .col {
           box-sizing: border-box;
           display: inline-block!important;
@@ -152,16 +211,19 @@
       <tr>
         <td align="center" bgcolor="#fff" style="padding-top: 30px">
           <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="600">
+            <!-- Daily Digest Logo -->
             <tr>
               <td align="left" bgcolor="#FFFFFF">
                 <img src="../img/1*5gCbsDPwqJZuveQ1HK7epw.png" alt="DailyDigest" width="290" />
               </td>
             </tr>
+            <!-- Divider -->
             <tr>
               <td class="divider" bgcolor="#fff" style="padding: 8px 0;">
                 <div style="background: #e3e3e3; height: 1px; line-height: 1px"></div>
               </td>
             </tr>
+            <!-- Stories for Joseph -->
             <tr>
               <td>
                 <p style="color: #757575; font-size: 14px; margin: 0;">
@@ -170,44 +232,45 @@
               </td>
             </tr>
           </table>
-          <div class="spacer" style="padding-top: 15px; padding-bottom: 15px;line-height: 212px"></div>
+          <div class="spacer" style="padding-top: 15px; padding-bottom: 15px; line-height: 212px"></div>
           <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="600">
             <!-- Today's highlights -->
             <tr>
               <td>
-                <h2 style="font-size: 18px; padding-bottom: 5px">
+                <h2 class="highlights-header fontsize-16-18">
                   Today's highlights
                 </h2>
               </td>
             </tr>
 
-            <!-- Each row of Articles -->
+            <!-- Noncollapsing article with 100% width image -->
             <tr>
               <td>
-                <table class="">
+                <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <!-- Article Image -->
                   <tr>
                     <td>
                       <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                         <tr>
-                          <td class="col" width="100%" style="padding: 0">
-                            <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                              <tr>
-                                <td class="p-sm-2" bgcolor="#fff" background="../img/0*7GPOPeGqBSteTFBK.jpeg"
-                                style="background-image: url('../img/0*7GPOPeGqBSteTFBK.jpeg'); background-repeat: no-repeat; background-position: center; background-size: cover;"
-                                width="100%">
-                                  <!--[if gte mso 9]>
-                                  <v:image src="../img/0*7GPOPeGqBSteTFBK.jpeg" xmlns:v="urn:schemas-microsoft-com:vml" style="width:700px;height:500px;" />
-                                  <v:rect fill="true" stroke="false" style="position:absolute;width:700px;height:500px;">
-                                  <v:fill opacity="0">
-                                  <div>
-                                  <![endif]-->
-                                  <div class="spacer" style="line-height: 200px; height: 200px;"></div>
-                                  <!--[if gte mso 9]></div></v:fill></v:rect><![endif]-->
-                                </td>
-                              </tr>
-                            <!-- <img src="../img/0*7GPOPeGqBSteTFBK.jpeg" alt="Image description" width="100%"> -->
-                            </table>
+                          <td width="100%" style="padding: 0">
+                            <a style="color: #FFFFFF; display: block; font-size: 13px; padding: 0; text-decoration: none;" href="https://www.google.com">
+                              <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr>
+                                  <td class="p-sm-2" bgcolor="#fff" background="../img/0*7GPOPeGqBSteTFBK.jpeg"
+                                  style="background-image: url('../img/0*7GPOPeGqBSteTFBK.jpeg'); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                                  width="100%">
+                                    <!--[if gte mso 9]>
+                                    <v:image src="../img/0*7GPOPeGqBSteTFBK.jpeg" xmlns:v="urn:schemas-microsoft-com:vml" style="width:700px;height:500px;" />
+                                    <v:rect fill="true" stroke="false" style="position:absolute;width:700px;height:500px;">
+                                    <v:fill opacity="0">
+                                    <div>
+                                    <![endif]-->
+                                    <div class="spacer" style="line-height: 200px; height: 200px;"></div>
+                                    <!--[if gte mso 9]></div></v:fill></v:rect><![endif]-->
+                                  </td>
+                                </tr>
+                              </table>
+                            </a>
                           </td>
                         </tr>
                       </table>
@@ -217,18 +280,588 @@
                   <!-- Article Description -->
                   <tr>
                     <td width="100%" style="padding: 0">
-                      <h2 style="font-size: 19px; color: #333; margin: 15px 0 5px 0;">
-                        How to build a React development playground using Storybook
-                      </h2>
+                      <a style="color: #FFFFFF; display: block; font-size: 13px; padding: 0; text-decoration: none;" href="https://www.google.com">
+                        <h2 class="article-title" style="color: #333; margin: 13px 0 5px 0;">
+                          How to build a React development playground using Storybook
+                        </h2>
+                      </a>
                       <p style="font-size: 15px; line-height: 1.33; margin: 0;">
                         Lately, I have been wanting to try new things and test out new technologies or patterns in my React…
                       </p>
-                      <p style="font-size: 14px; color: #555;">
-                        Sarah Sweat in freeCodeCamp.org <span>6 min read</span>
+                      <p style="font-size: 15px; color: #555;">
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                          Sarah Sweat
+                        </a>in
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                        freeCodeCamp.org
+                        </a>
+                        <span style="margin-left: 10px;">6 min read</span>
                       </p>
                     </td>
                   </tr>
                 </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <!-- Collapsing article -->
+                <table class="container margin-bottom-32-36 margin-top-12-24" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  
+                  <tr>
+
+                    <!-- Article Image -->
+                    <td class="col image-padding-bottom" width="102">
+                      <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                        <tr>
+                          <td class="col" width="100%" style="padding: 0">
+                            <a style="color: #FFFFFF; display: block; font-size: 13px; padding: 0; text-decoration: none;" href="https://www.google.com">
+                              <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr>
+                                  <td class="p-sm-2" bgcolor="#fff" background="../img/1*qCqzmtmCGpjZZ5jVRRVWmg.jpeg"
+                                  style="background-image: url('../img/1*qCqzmtmCGpjZZ5jVRRVWmg.jpeg'); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                                  width="100%">
+                                    <!--[if gte mso 9]>
+                                    <v:image src="../img/0*7GPOPeGqBSteTFBK.jpeg" xmlns:v="urn:schemas-microsoft-com:vml" style="width:700px;height:500px;" />
+                                    <v:rect fill="true" stroke="false" style="position:absolute;width:700px;height:500px;">
+                                    <v:fill opacity="0">
+                                    <div>
+                                    <![endif]-->
+                                    <div class="spacer" style="height: 102px;"></div>
+                                    <!--[if gte mso 9]></div></v:fill></v:rect><![endif]-->
+                                  </td>
+                                </tr>
+                              </table>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                    <!-- Article Description -->
+                    <td class="col col-margin-left">
+                      <a style="padding: 0; text-decoration: none;" href="https://www.google.com">
+                        <h2 class="fontsize-17-18" style="color: #333; line-height: 1.22; font-weight: 700; margin: 0;">
+                          How to Use Mock Data in Vue Apps
+                        </h2>
+                      </a>
+                      <p style="font-size: 15px; line-height: 1.33; margin: 5px 0 0 0;">
+                        When I start building a new SPA project, I focus extensively on the workflow of the app. I focus on how it…
+                      </p>
+                      <p style="font-size: 15px; color: #555; margin: 8px 0 0 0; line-height: 1.4">
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                          Taha Shashtari
+                        </a>in
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                        Noteworthy - The Journal Blog
+                        </a>
+                        <span style="margin-left: 10px;">8 min read</span>
+                      </p>
+                    </td>
+
+                  </tr>
+                </table>
+
+                <!-- Collapsing article -->
+                <table class="container margin-bottom-32-36 margin-top-12-24" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  
+                  <tr>
+
+                    <!-- Article Image -->
+                    <td class="col image-padding-bottom" width="102">
+                      <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                        <tr>
+                          <td class="col" width="100%" style="padding: 0">
+                            <a style="color: #FFFFFF; display: block; font-size: 13px; padding: 0; text-decoration: none;" href="https://www.google.com">
+                              <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr>
+                                  <td class="p-sm-2" bgcolor="#fff" background="../img/1*l_jxG2k_zuOj7T_hyBLXTA.jpeg"
+                                  style="background-image: url('../img/1*l_jxG2k_zuOj7T_hyBLXTA.jpeg'); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                                  width="100%">
+                                    <!--[if gte mso 9]>
+                                    <v:image src="../img/0*7GPOPeGqBSteTFBK.jpeg" xmlns:v="urn:schemas-microsoft-com:vml" style="width:700px;height:500px;" />
+                                    <v:rect fill="true" stroke="false" style="position:absolute;width:700px;height:500px;">
+                                    <v:fill opacity="0">
+                                    <div>
+                                    <![endif]-->
+                                    <div class="spacer" style="height: 102px;"></div>
+                                    <!--[if gte mso 9]></div></v:fill></v:rect><![endif]-->
+                                  </td>
+                                </tr>
+                              </table>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                    <!-- Article Description -->
+                    <td class="col col-margin-left">
+                      <a style="padding: 0; text-decoration: none;" href="https://www.google.com">
+                        <h2 class="fontsize-17-18" style="color: #333; line-height: 1.22; font-weight: 700; margin: 0;">
+                          Headless WordPress + Next.js - What We Learned
+                        </h2>
+                      </a>
+                      <p style="font-size: 15px; line-height: 1.33; margin: 5px 0 0 0;">
+                        Common practices, pain points, and things to note when building a headless WordPress website.
+                      </p>
+                      <p style="font-size: 15px; color: #555; margin: 8px 0 0 0; line-height: 1.4">
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                          Resi Respati
+                        </a>in
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                        Kata.ai Tech Blog
+                        </a>
+                        <span style="margin-left: 10px;">7 min read</span>
+                      </p>
+                    </td>
+
+                  </tr>
+                </table>
+
+                <!-- Collapsing article -->
+                <table class="container margin-bottom-32-36 margin-top-12-24" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  
+                  <tr>
+
+                    <!-- Article Image -->
+                    <td class="col image-padding-bottom" width="102">
+                      <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                        <tr>
+                          <td class="col" width="100%" style="padding: 0">
+                            <a style="color: #FFFFFF; display: block; font-size: 13px; padding: 0; text-decoration: none;" href="https://www.google.com">
+                              <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr>
+                                  <td class="p-sm-2" bgcolor="#fff" background="../img/1*ZJMH1oNCwUd3QgvZHwlgpg.jpeg"
+                                  style="background-image: url('../img/1*ZJMH1oNCwUd3QgvZHwlgpg.jpeg'); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                                  width="100%">
+                                    <!--[if gte mso 9]>
+                                    <v:image src="../img/0*7GPOPeGqBSteTFBK.jpeg" xmlns:v="urn:schemas-microsoft-com:vml" style="width:700px;height:500px;" />
+                                    <v:rect fill="true" stroke="false" style="position:absolute;width:700px;height:500px;">
+                                    <v:fill opacity="0">
+                                    <div>
+                                    <![endif]-->
+                                    <div class="spacer" style="height: 102px;"></div>
+                                    <!--[if gte mso 9]></div></v:fill></v:rect><![endif]-->
+                                  </td>
+                                </tr>
+                              </table>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                    <!-- Article Description -->
+                    <td class="col col-margin-left">
+                      <a style="padding: 0; text-decoration: none;" href="https://www.google.com">
+                        <h2 class="fontsize-17-18" style="color: #333; line-height: 1.22; font-weight: 700; margin: 0;">
+                          Can You Avoid Functional Programming as a Policy?
+                        </h2>
+                      </a>
+                      <p style="font-size: 15px; line-height: 1.33; margin: 5px 0 0 0;">
+                        Functional programming has penetrated most of the mainstream programming world — much of the JS ecosystem…
+                      </p>
+                      <p style="font-size: 15px; color: #555; margin: 8px 0 0 0; line-height: 1.4">
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                          Eric Elliott
+                        </a>in
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                        JavaScript Scene
+                        </a>
+                        <span style="margin-left: 10px;">6 min read</span>
+                      </p>
+                    </td>
+
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Based on your reading history -->
+            <tr>
+              <td>
+                <h2 class="fontsize-16-18" style="margin-top: 44px; margin-bottom: 10px">
+                  Based on your reading history
+                </h2>
+                <div class="divider" style="background: #e3e3e3; height: 1px; padding: 0;"></div>
+
+                <!-- Collapsing article -->
+                <table class="container margin-bottom-32-36 margin-top-12-24" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  
+                    <tr>
+  
+                      <!-- Article Image -->
+                      <td class="col image-padding-bottom" width="102">
+                        <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                          <tr>
+                            <td class="col" width="100%" style="padding: 0">
+                              <a style="color: #FFFFFF; display: block; font-size: 13px; padding: 0; text-decoration: none;" href="https://www.google.com">
+                                <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                  <tr>
+                                    <td class="p-sm-2" bgcolor="#fff" background="../img/1*5Bj6YhXvMWtHVFaWLe3SVQ.jpeg"
+                                    style="background-image: url('../img/1*5Bj6YhXvMWtHVFaWLe3SVQ.jpeg'); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                                    width="100%">
+                                      <!--[if gte mso 9]>
+                                      <v:image src="../img/0*7GPOPeGqBSteTFBK.jpeg" xmlns:v="urn:schemas-microsoft-com:vml" style="width:700px;height:500px;" />
+                                      <v:rect fill="true" stroke="false" style="position:absolute;width:700px;height:500px;">
+                                      <v:fill opacity="0">
+                                      <div>
+                                      <![endif]-->
+                                      <div class="spacer" style="height: 102px;"></div>
+                                      <!--[if gte mso 9]></div></v:fill></v:rect><![endif]-->
+                                    </td>
+                                  </tr>
+                                </table>
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+  
+                      <!-- Article Description -->
+                      <td class="col col-margin-left">
+                        <a style="padding: 0; text-decoration: none;" href="https://www.google.com">
+                          <h2 class="fontsize-17-18" style="color: #333; line-height: 1.22; font-weight: 700; margin: 0;">
+                            Things I’ve learned about CSS grid layout
+                          </h2>
+                        </a>
+                        <p style="font-size: 15px; line-height: 1.33; margin: 5px 0 0 0;">
+                          With CSS Grid you can create complex web designs. It is very intuitive and very well supported by the major…
+                        </p>
+                        <p style="font-size: 15px; color: #555; margin: 8px 0 0 0; line-height: 1.4">
+                          <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                            Jennifer Wjertzoch
+                          </a>in
+                          <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                          freeCodeCamp.org
+                          </a>
+                          <img style="vertical-align: middle; width: 12px; margin-left: 10px; padding-bottom: 3px" width="12" src="../img/1*dMba6LR4dsoQTHzQ5T7oaA.png" />
+                          <span style="margin-left: 10px;">8 min read</span>
+                        </p>
+                      </td>
+  
+                    </tr>
+                </table>
+
+                <!-- Collapsing article -->
+                <table class="container margin-bottom-32-36 margin-top-12-24" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  
+                  <tr>
+
+                    <!-- Article Image -->
+                    <td class="col image-padding-bottom" width="102">
+                      <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                        <tr>
+                          <td class="col" width="100%" style="padding: 0">
+                            <a style="color: #FFFFFF; display: block; font-size: 13px; padding: 0; text-decoration: none;" href="https://www.google.com">
+                              <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr>
+                                  <td class="p-sm-2" bgcolor="#fff" background="../img/1*l_jxG2k_zuOj7T_hyBLXTA.jpeg"
+                                  style="background-image: url('../img/1*l_jxG2k_zuOj7T_hyBLXTA.jpeg'); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                                  width="100%">
+                                    <!--[if gte mso 9]>
+                                    <v:image src="../img/0*7GPOPeGqBSteTFBK.jpeg" xmlns:v="urn:schemas-microsoft-com:vml" style="width:700px;height:500px;" />
+                                    <v:rect fill="true" stroke="false" style="position:absolute;width:700px;height:500px;">
+                                    <v:fill opacity="0">
+                                    <div>
+                                    <![endif]-->
+                                    <div class="spacer" style="height: 102px;"></div>
+                                    <!--[if gte mso 9]></div></v:fill></v:rect><![endif]-->
+                                  </td>
+                                </tr>
+                              </table>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                    <!-- Article Description -->
+                    <td class="col col-margin-left">
+                      <a style="padding: 0; text-decoration: none;" href="https://www.google.com">
+                        <h2 class="fontsize-17-18" style="color: #333; line-height: 1.22; font-weight: 700; margin: 0;">
+                          Let’s build a FullStack App with JavaScript! ~ Episode 1
+                        </h2>
+                      </a>
+                      <p style="font-size: 15px; line-height: 1.33; margin: 5px 0 0 0;">
+                        An introduction and setup for the backend portion of our FullStack App!
+                      </p>
+                      <p style="font-size: 15px; color: #555; margin: 8px 0 0 0; line-height: 1.4">
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                          Matt Basile
+                        </a>in
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                        Matt's Lambda Minutes
+                        </a>
+                        <img style="vertical-align: middle; width: 12px; margin-left: 10px; padding-bottom: 3px" width="12" src="../img/1*dMba6LR4dsoQTHzQ5T7oaA.png" />
+                        <span style="margin-left: 10px;">8 min read</span>
+                      </p>
+                    </td>
+
+                  </tr>
+                </table>
+
+                <!-- Collapsing article -->
+                <table class="container margin-bottom-32-36 margin-top-12-24" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  
+                  <tr>
+
+                    <!-- Article Image -->
+                    <td class="col image-padding-bottom" width="102">
+                      <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                        <tr>
+                          <td class="col" width="100%" style="padding: 0">
+                            <a style="color: #FFFFFF; display: block; font-size: 13px; padding: 0; text-decoration: none;" href="https://www.google.com">
+                              <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr>
+                                  <td class="p-sm-2" bgcolor="#fff" background="../img/1*ZJMH1oNCwUd3QgvZHwlgpg.jpeg"
+                                  style="background-image: url('../img/1*ZJMH1oNCwUd3QgvZHwlgpg.jpeg'); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                                  width="100%">
+                                    <!--[if gte mso 9]>
+                                    <v:image src="../img/0*7GPOPeGqBSteTFBK.jpeg" xmlns:v="urn:schemas-microsoft-com:vml" style="width:700px;height:500px;" />
+                                    <v:rect fill="true" stroke="false" style="position:absolute;width:700px;height:500px;">
+                                    <v:fill opacity="0">
+                                    <div>
+                                    <![endif]-->
+                                    <div class="spacer" style="height: 102px;"></div>
+                                    <!--[if gte mso 9]></div></v:fill></v:rect><![endif]-->
+                                  </td>
+                                </tr>
+                              </table>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                    <!-- Article Description -->
+                    <td class="col col-margin-left">
+                      <a style="padding: 0; text-decoration: none;" href="https://www.google.com">
+                        <h2 class="fontsize-17-18" style="color: #333; line-height: 1.22; font-weight: 700; margin: 0;">
+                          How learning a foreign language helps you learn to code
+                        </h2>
+                      </a>
+                      <p style="font-size: 15px; line-height: 1.33; margin: 5px 0 0 0;">
+                        The road to becoming a software developer is a long and difficult one, especially for individuals like me who…
+                      </p>
+                      <p style="font-size: 15px; color: #555; margin: 8px 0 0 0; line-height: 1.4">
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                          Dylan
+                        </a>in
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                        freeCodeCamp.org
+                        </a>
+                        <img style="vertical-align: middle; width: 12px; margin-left: 10px; padding-bottom: 3px" width="12" src="../img/1*dMba6LR4dsoQTHzQ5T7oaA.png" />
+                        <span style="margin-left: 10px;">11 min read</span>
+                      </p>
+                    </td>
+
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Best in Javascript -->
+            <tr>
+              <td>
+                <h2 class="fontsize-16-18" style="margin-top: 44px; margin-bottom: 10px">
+                  Best in Javascript
+                </h2>
+                <div class="divider" style="background: #e3e3e3; height: 1px; padding: 0;"></div>
+
+                <!-- Collapsing article -->
+                <table class="container margin-bottom-32-36 margin-top-12-24" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  
+                    <tr>
+  
+                      <!-- Article Image -->
+                      <td class="col image-padding-bottom" width="102">
+                        <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                          <tr>
+                            <td class="col" width="100%" style="padding: 0">
+                              <a style="color: #FFFFFF; display: block; font-size: 13px; padding: 0; text-decoration: none;" href="https://www.google.com">
+                                <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                  <tr>
+                                    <td class="p-sm-2" bgcolor="#fff" background="../img/1_jbTtqD35rZg6T52trZkrwA.jpg"
+                                    style="background-image: url('../img/1_jbTtqD35rZg6T52trZkrwA.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                                    width="100%">
+                                      <!--[if gte mso 9]>
+                                      <v:image src="../img/0*7GPOPeGqBSteTFBK.jpeg" xmlns:v="urn:schemas-microsoft-com:vml" style="width:700px;height:500px;" />
+                                      <v:rect fill="true" stroke="false" style="position:absolute;width:700px;height:500px;">
+                                      <v:fill opacity="0">
+                                      <div>
+                                      <![endif]-->
+                                      <div class="spacer" style="height: 102px;"></div>
+                                      <!--[if gte mso 9]></div></v:fill></v:rect><![endif]-->
+                                    </td>
+                                  </tr>
+                                </table>
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+  
+                      <!-- Article Description -->
+                      <td class="col col-margin-left">
+                        <a style="padding: 0; text-decoration: none;" href="https://www.google.com">
+                          <h2 class="fontsize-17-18" style="color: #333; line-height: 1.22; font-weight: 700; margin: 0;">
+                            Infinite Scroll’ing the right way
+                          </h2>
+                        </a>
+                        <p style="font-size: 15px; line-height: 1.33; margin: 5px 0 0 0;">
+                          Scroll - The basic:
+                        </p>
+                        <p style="font-size: 15px; color: #555; margin: 8px 0 0 0; line-height: 1.4">
+                          <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                            Phong Lam
+                          </a>in
+                          <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                          WalmartLabs
+                          </a>
+                          <img style="vertical-align: middle; width: 12px; margin-left: 10px; padding-bottom: 3px" width="12" src="../img/1*dMba6LR4dsoQTHzQ5T7oaA.png" />
+                          <span style="margin-left: 10px;">7 min read</span>
+                        </p>
+                      </td>
+  
+                    </tr>
+                </table>
+
+                <!-- Collapsing article -->
+                <table class="container margin-bottom-32-36 margin-top-12-24" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  
+                  <tr>
+
+                    <!-- Article Image -->
+                    <td class="col image-padding-bottom" width="102">
+                      <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                        <tr>
+                          <td class="col" width="100%" style="padding: 0">
+                            <a style="color: #FFFFFF; display: block; font-size: 13px; padding: 0; text-decoration: none;" href="https://www.google.com">
+                              <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr>
+                                  <td class="p-sm-2" bgcolor="#fff" background="../img/1_3eQeFRjlLEC7huslz1LCOg.jpg"
+                                  style="background-image: url('../img/1_3eQeFRjlLEC7huslz1LCOg.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                                  width="100%">
+                                    <!--[if gte mso 9]>
+                                    <v:image src="../img/0*7GPOPeGqBSteTFBK.jpeg" xmlns:v="urn:schemas-microsoft-com:vml" style="width:700px;height:500px;" />
+                                    <v:rect fill="true" stroke="false" style="position:absolute;width:700px;height:500px;">
+                                    <v:fill opacity="0">
+                                    <div>
+                                    <![endif]-->
+                                    <div class="spacer" style="height: 102px;"></div>
+                                    <!--[if gte mso 9]></div></v:fill></v:rect><![endif]-->
+                                  </td>
+                                </tr>
+                              </table>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                    <!-- Article Description -->
+                    <td class="col col-margin-left">
+                      <a style="padding: 0; text-decoration: none;" href="https://www.google.com">
+                        <h2 class="fontsize-17-18" style="color: #333; line-height: 1.22; font-weight: 700; margin: 0;">
+                          From Javascript to Typescript to Elm
+                        </h2>
+                      </a>
+                      <p style="font-size: 15px; line-height: 1.33; margin: 5px 0 0 0;">
+                        In this article, I will cover my migration progress between all three languages and explain why and what…
+                      </p>
+                      <p style="font-size: 15px; color: #555; margin: 8px 0 0 0; line-height: 1.4">
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                          Kevin Lanthier
+                        </a>in
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                        ITNEXT
+                        </a>
+                        <img style="vertical-align: middle; width: 12px; margin-left: 10px; padding-bottom: 3px" width="12" src="../img/1*dMba6LR4dsoQTHzQ5T7oaA.png" />
+                        <span style="margin-left: 10px;">11 min read</span>
+                      </p>
+                    </td>
+
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+
+            <!-- Noncollapsing article with 100% width image -->
+            <tr>
+              <td>
+                <h2 class="fontsize-16-18" style="margin-top: 44px; margin-bottom: 10px">
+                  Editors' picks
+                </h2>
+
+                <table class="container margin-bottom-32-36 margin-top-12-24" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <!-- Article Image -->
+                  <tr>
+                    <td>
+                      <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                        <tr>
+                          <td width="100%" style="padding: 0">
+                            <a style="color: #FFFFFF; display: block; font-size: 13px; padding: 0; text-decoration: none;" href="https://www.google.com">
+                              <table align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                <tr>
+                                  <td class="p-sm-2" bgcolor="#fff" background="../img/1_winH1cfHH1lcGyTK1i4owQ.jpg"
+                                  style="background-image: url('../img/1_winH1cfHH1lcGyTK1i4owQ.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                                  width="100%">
+                                    <!--[if gte mso 9]>
+                                    <v:image src="../img/0*7GPOPeGqBSteTFBK.jpeg" xmlns:v="urn:schemas-microsoft-com:vml" style="width:700px;height:500px;" />
+                                    <v:rect fill="true" stroke="false" style="position:absolute;width:700px;height:500px;">
+                                    <v:fill opacity="0">
+                                    <div>
+                                    <![endif]-->
+                                    <div class="spacer" style="line-height: 200px; height: 200px;"></div>
+                                    <!--[if gte mso 9]></div></v:fill></v:rect><![endif]-->
+                                  </td>
+                                </tr>
+                              </table>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  
+                  <!-- Article Description -->
+                  <tr>
+                    <td width="100%" style="padding: 0">
+                      <a style="color: #FFFFFF; display: block; font-size: 13px; padding: 0; text-decoration: none;" href="https://www.google.com">
+                        <h2 class="article-title" style="color: #333; margin: 13px 0 5px 0;">
+                          When the web Loses Its Memory
+                        </h2>
+                      </a>
+                      <p style="font-size: 15px; line-height: 1.33; margin: 0;">
+                        As sites like Tumblr perform mass purges, archivists are fighting a losing battle to save disappearing parts…
+                      </p>
+                      <p style="font-size: 15px; color: #555;">
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                          Elena Cresci
+                        </a>in
+                        <a style="color: #555; padding: 0; text-decoration: none;" href="https://www.google.com">
+                          OneZero
+                        </a>
+                        <img style="vertical-align: middle; width: 12px; margin-left: 10px; padding-bottom: 3px" width="12" src="../img/1*dMba6LR4dsoQTHzQ5T7oaA.png" />
+                        <span style="margin-left: 10px;">6 min read</span>
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="text-align: center; padding-top: 20px; padding-bottom: 60px;">
+                <div style="font-size: 18px; font-weight: 700;">
+                  Make this email better.
+                </div>
+                <a style="color: #0a7; text-decoration: none; display: inline-block; height: 36px; line-height: 36px; padding: 0 24px; border: 1px solid #0a7; font-size: 14px; text-align: center; border-radius: 4px; margin-top: 20px;" href="https://www.google.com">
+                  Tailor your topics
+                </a>
               </td>
             </tr>
 

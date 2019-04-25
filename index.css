@@ -4,15 +4,23 @@
 
 body {
   font-family: sans-serif;
+  margin: 0;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
 h1 {
-  margin: 100px 0 50px 0;
+  margin: 30px 0;
+  font-size: 18px;
+  color: #333;
 }
 
 li {
@@ -36,11 +44,7 @@ li {
   vertical-align: bottom;
 }
 
-header h1 {
-  font-weight: 400;
-}
-
-header, main {
+main {
   display: flex;
   justify-content: center;
   align-items: center;

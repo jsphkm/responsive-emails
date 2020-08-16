@@ -21,7 +21,7 @@ h1 {
   color: #333;
 }
 
-li {
+a {
   display: inline-block;
   margin: 20px;
   width: 300px;
@@ -30,6 +30,14 @@ li {
   overflow: auto;
   -webkit-box-shadow: 0 0 5px 1px rgba(155,155,155,0.2);
   box-shadow: 0 0 5px 1px rgba(155,155,155,0.2);
+  transition: box-shadow 0.5s;
+}
+
+li a:hover,
+li a:focus,
+li a:active {
+  box-shadow: 0 0 20px 1px rgba(5,5,5,0.2);
+  transition: box-shadow 0.5s;
 }
 
 .container, a {
